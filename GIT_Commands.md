@@ -2,13 +2,13 @@
 
 ## OTHER GIT commands
 
- 1981  git branch PBMBSTK-2423
- 1982  git branch -l
- 1979  git branch --delete <branchname>
-
- 1985  git checkout main
- 1986  git checkout PBMBSTK-2423
-
+```
+git branch PBMBSTK-2423
+git branch -l
+git branch --delete <branchname>
+git checkout main
+git checkout PBMBSTK-2423
+```
 
 ## GIT Befehler vorgeschlagen von GitHub
 
