@@ -23,7 +23,7 @@ git log --decorate=full
 git log --decorate --graph --all
 git switch PBMBSTK-2423 ??
 git checkout main
-git checkout PBMBSTK-2423
+git checkout -b PBMBSTK-2423
 git merge PBMBSTK-2423 
 git add file.txt
 git commit -m "Testing"
