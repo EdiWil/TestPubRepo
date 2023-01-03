@@ -13,6 +13,7 @@ git status
 git branch PBMBSTK-2423
 git branch -l
 git branch --list
+git branch -vv
 git branch --merged
 git branch --no-merged
 git branch --all
