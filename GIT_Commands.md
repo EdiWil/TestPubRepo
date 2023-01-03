@@ -20,18 +20,22 @@ git branch --delete <branchname>
 git branch -d test
 git branch -D test
 git branch -d PBMBSTK-2423 
+git branch --move furhter_commands furtherCommands
 git remote -v
 git log --decorate=full
 git log --decorate --graph --all
 git switch PBMBSTK-2423 ??
 git checkout main
 git checkout -b PBMBSTK-2423
+git checkout origin/main
 git merge PBMBSTK-2423 
 git add file.txt
 git commit -m "Testing"
 git commit -a -m "commit never to be published"
 git push
+git push origin opticalBugFixes
 git pull --rebase=true
+git fetch origin main:main
 ```
 
 ## GIT Befehler vorgeschlagen von GitHub
