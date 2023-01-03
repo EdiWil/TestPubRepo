@@ -6,7 +6,7 @@ this is a test mark
 
 ```
 git clone https://github.com/EdiWil/TestPubRepo.git TestPubRepo
-
+git clone -o booyah
 git config --global user.email "EdiWil@abc.de"
 git config --global user.name "Edi Wil"
 git status
