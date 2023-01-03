@@ -24,6 +24,7 @@ git branch --move furhter_commands furtherCommands
 git remote -v
 git log --decorate=full
 git log --decorate --graph --all
+git log --oneline --decorate
 git switch PBMBSTK-2423 ??
 git checkout main
 git checkout -b PBMBSTK-2423
